@@ -88,7 +88,7 @@ As you can see, just working with two resources increases the size of our reduce
 The __combineReducers()__ function allows us to write two separate reducers, then pass each reducer to the __combineReducers()__ function to produce the reducer we wrote above. Then we pass that combined reducer to the store. Let's write some code, and then we'll walk through it below.  
 
 ```javascript
-import { comineReducers } from 'redux';
+import { combineReducers } from 'redux';
 
 const rootReducer = combineReducers({
   books: booksReducer, 
